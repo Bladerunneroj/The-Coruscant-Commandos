@@ -36,15 +36,15 @@ body {
 }
 
 .button {
-    background-color: #222;
-    border-radius: 8px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #fff;
-    border: 2px solid #222;
-    text-decoration: none;
-    transition: all .2s;
+  background: linear-gradient(135deg, #6a5acd, #00bfff);
+  border: none;
+  border-radius: 12px;
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .button:hover {
