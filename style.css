@@ -48,9 +48,11 @@ body {
 }
 
 .button:hover {
-    background-color: rgb(255, 166, 0);
-    border-radius: 8px;
-    color: #222;
-    text-decoration: none;
-    border: 2px solid #222;
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+.button:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
 }
